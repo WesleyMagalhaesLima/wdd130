@@ -1,3 +1,7 @@
+main {
+    max-width: 840px;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -13,7 +17,7 @@ h1 {
     color: steelblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -23,4 +27,19 @@ img {
 
 p {
     padding: 10px;
+}
+
+aside {
+    width: 300px;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: steelblue;
+    color: white;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    background-position: center;
 }
