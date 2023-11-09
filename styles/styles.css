@@ -1,5 +1,5 @@
 main {
-    max-width: 840px;
+    max-width: 100%;
 }
 
 nav {
@@ -26,20 +26,28 @@ main img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
 }
 
 aside {
-    width: 300px;
-    margin: 5px;
+    width: 20rem;
+    margin: 1rem;
     border: 1px solid black;
-    padding: 5px;
+    padding: 1rem;
     background-color: steelblue;
     color: white;
+    text-align: center;
+    /*float: right;*/
 }
 
 aside img {
     width: 200px;
     height: auto;
     background-position: center;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid steelblue;
+    text-align: center;
 }
