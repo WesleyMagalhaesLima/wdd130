@@ -30,24 +30,22 @@ p {
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid black;
+    width: 22rem;
+    margin: 1.1rem;
+    border: 1.5px solid black;
     padding: 1rem;
     background-color: steelblue;
     color: white;
     text-align: center;
-    /*float: right;*/
 }
 
 aside img {
     width: 200px;
     height: auto;
-    background-position: center;
 }
 
 footer {
-    margin-top: 15px;
-    border-top: 1px solid steelblue;
+    margin-top: 20px;
+    border-top: 1.5px solid steelblue;
     text-align: center;
 }
