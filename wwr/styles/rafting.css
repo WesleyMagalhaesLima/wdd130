@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama&family=Rubik&display=swap');
+
+:root {
+    --primary-color: #134266;
+    --secondary-color: #78C5D7;
+    --accent1-color: #FCE172;
+    --accent2-color: #A96E4C;
+
+    --heading-font: 'Georama', serif-sans;
+    --paragraph-font: 'Rubik', serif-sans;
+
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: var(--secondary-color);
+    --nav-hover-link-color: black;
+    --nav-hover-background-color: var(--accent1-color);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    max-width: 1200px;
+    margin: 30px;
+}
+
+header img {
+    width: 17vw;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+    background-color: var(--nav-hover-background-color);
+    font-family: var(--heading-font);
+    margin-top: 15px;
+    padding: 5px;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    padding: 10px;
+    text-align: justify;
+}
+
+header nav a {
+    font-family: var(--paragraph-font);
+    text-decoration: none;
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+header nav a:hover {
+    font-family: var(--paragraph-font);
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+footer nav a {
+    font-family: var(--paragraph-font);
+    text-decoration: none;
+    margin: 5px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: var(--primary-color);
+    text-transform: uppercase; 
+}
+
+.hero article {
+    width: 80vw;
+    position: absolute;
+    top: 210px;
+    left: 90px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: var(--primary-color);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.hero article img {
+    float: right;
+    width: 150px;
+    border-radius: 0 10px 10px 0;
+    margin-left: 10px;
+}
+
+section img {
+    width: 45vw;
+    margin: 1rem 1rem 0 0;
+    box-shadow: var(--primary-color) 0px 0px 0px 1.5px, var(--primary-color) 0px 4px 6px -1px, var(--secondary-color) 0px 1px 0px inset;
+}
+
+a img {
+    font-family: var(--paragraph-font);
+    width: 2vw;
+    height: auto;
+}
+
+
