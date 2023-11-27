@@ -92,7 +92,7 @@ footer {
     padding-left: 2rem;
 }
 
-.grid {
+div.grid {
     display: grid;
     align-items: center;
 }
