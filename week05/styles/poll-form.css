@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama&family=Rubik&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Georama', 'Rubik', sans-serif;
+	color:rgb(64, 64, 72);
+	background-color: #fff;
+}
+
+header {
+	margin: 0 auto;
+	width: 550px;
+}
+
+h1 {
+	margin: 1rem;
+	font-size: 1.35rem;
+	color: #000064;
+	text-align: center;
+}
+
+form {
+	display: grid;
+	width: 550px;
+	margin: 0 auto;
+	padding: 1rem;
+	border: 1px solid #000064;
+	border-radius: 10px;
+	background-color: rgb(234, 233, 233);
+}
+
+fieldset {
+	display: grid;
+	gap: .5rem;
+	margin: .5rem;
+	border: 1px solid #000064;
+	padding: .5rem;
+}
+
+legend {
+	color:#000064;
+	border-radius: 5px;
+	padding: 0.34rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+label, input, button, select, textarea {
+	font-family: 'Georama', 'Rubik', sans-serif;
+}
+
+label {
+	text-align: right;
+	padding-right: .5rem;
+}
+
+input, select, textarea {
+	text-align: right;
+	padding-right: .5rem;
+	font-size: 1.1rem;
+	margin-right: .5rem;
+}
+
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	vertical-align: bottom;
+	justify-self: end;
+}
+
+button {
+	margin: 1rem;
+	background-color: #000064;
+	color: white;
+	font-size: larger;
+	padding: .3rem;
+	border: none;
+	border-radius: 15px;
+	width: 250px;
+	justify-self: center;
+}
+
+button:hover {
+	background-color: #02023b;
+	cursor: pointer;
+}
+
+footer {
+	margin: 1.5rem auto 0;
+	width: 650px;
+	border-top: 1px solid #000064;
+	color: #000064;
+	font-size: 1rem;
+	font-weight: 600;
+	text-align: center;
+}
+
+/* I stopped in step 3 */
