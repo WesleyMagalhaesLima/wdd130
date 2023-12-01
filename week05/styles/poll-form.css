@@ -100,4 +100,18 @@ footer {
 	text-align: center;
 }
 
-/* I stopped in step 3 */
+/* Class Selectors */
+.form-item {
+	display: grid;
+	align-items: center;
+}
+
+.column1 {
+	grid-template-columns: 3fr 1fr;
+	margin-right: .5rem 0;
+	justify-self: right;
+}
+
+.column2 {
+	grid-template-columns: 1fr 1fr;
+}
