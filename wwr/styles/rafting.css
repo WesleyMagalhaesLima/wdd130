@@ -47,7 +47,7 @@ header nav a {
     display: block;
     font-family: var(--paragraph-font);
     text-decoration: none;
-    color: var(--nav-link-color);
+    color: white;
     background-color: var(--nav-background-color);
     padding: 5px;
     border-radius: 5px;
@@ -213,7 +213,7 @@ label {
 }
 
 button {
-    color: var(--nav-link-color);
+    color: white;
     background-color: var(--nav-background-color);
     font-weight: 800;
     height: 1.5rem;
