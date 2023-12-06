@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dry Oar</title>
+    <meta name="description" content="This is the Contact Us page to the Dry Oar company.">
+    <meta name="author" content="Wesley Magalhães Lima">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo Dry Oar">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <div>   
+            <section class="companyInformation">
+                <p>Address: 4883+P5M Ocoee, Tennessee, EUA</p>
+                <p>Phone: +1 (615)-999-0000</p>
+                <p>E-mail: dryoar_rafting@outlook.com</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.594404148746!2d-84.6970781!3d35.116837499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885e3353b0a42d93%3A0xe0076fd4a3d9f88!2s4883%2BP5M%2C%20Ocoee%2C%20TN%2037361%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1701815931594!5m2!1spt-BR!2sbr" width="500" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </div>
+        <div>
+            <h2>Employees</h2>
+            <section class="employees"> 
+                <figure>
+                    <img src="images/employee1.jpeg" alt="">
+                    <figcaption>Jacob - Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpeg" alt="">
+                    <figcaption>Ana - Rafting Instructor</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpeg" alt="">
+                    <figcaption>Mary - Water Adventure Specialist</figcaption>
+                </figure>    
+            </section>
+        </div>
+        <div>
+            <h2>Send us a message</h2>
+            <form>
+                <fieldset class="identification">
+                    <legend>Identification</legend>
+                        <label for="fullname">Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                        <label for="useremail">E-mail:</label>
+                        <input type="email" id="useremail" name="useremail" placeholder="example@email.com">
+                </fieldset>
+                <fieldset>
+                    <legend>Message</legend>
+                    <label for="purpose">What is the message purpose?</label>
+                    <div class="option-radio">
+                        <input type="radio" id="general" name="purpose" value="general">
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div class="option-radio">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div class="option-radio">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="20" rows="7"></textarea>
+                    <div class="form-item">
+                        <input type="checkbox" id="subscription">
+                        <label for="subscription">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                    <button type="submit">Submit message</button>
+                </fieldset>
+            </form>
+        </div>       
+    </main>
+    <footer>
+        <p>&copy; 2023 🛶 Dry Oar 🛶 Wesley Magalhães Lima</p>
+        <nav>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook-icon.png" alt="Facebook icon">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram-icon.png" alt="Instagram icon">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="images/youtube-icon.png" alt="Youtube icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
