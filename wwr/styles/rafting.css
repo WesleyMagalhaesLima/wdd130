@@ -21,6 +21,8 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+
 header {
     margin: 1rem auto;
     display: grid;
@@ -63,6 +65,8 @@ header nav a:hover, .trips-table a:hover {
     color: var(--nav-hover-link-color);
 }
 
+/* BODY */
+
 body {
     max-width: 1200px;
     margin: 1rem;
@@ -77,7 +81,7 @@ h1, h2, h3 {
     border-radius: 3px;
 }
 
-p, figcaption {
+p, figcaption, ul {
     font-family: var(--paragraph-font);
     padding: 10px;
     text-align: justify;
@@ -97,11 +101,11 @@ p, figcaption {
 
 .hero h1 {
     position: absolute;
-    top: 10px;
+    top: 1px;
     width: 100%;
-    height: 13%;
+    height: 20%;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.7);
     color: var(--primary-color);
     text-transform: uppercase; 
 }
@@ -109,9 +113,9 @@ p, figcaption {
 .hero article {
     width: 80vw;
     position: absolute;
-    top: 210px;
+    top: 110px;
     left: 90px;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.7);
     color: var(--primary-color);
     border-radius: 10px;
     font-weight: bold;
@@ -231,6 +235,8 @@ button:hover {
     cursor: pointer;
 }
 
+/* FOOTER */
+
 footer {
     display: grid;
     grid-template-columns: 4fr 1fr 1fr;
@@ -247,27 +253,28 @@ footer nav a {
     margin: 5px;
 }
 
-.trips-title {
+/* TRIPS PAGE */
+
+.trips-title, .home-title {
     position: relative;
     border: 1PX solid var(--primary-color);
     border-radius: 3px;
 }
 
-.trips-title h1{
+.trips-title h1 {
     position: absolute;
     border-radius: 0;
     margin: 0;
-    background-color: rgba(255, 255, 255, 0.55);
+    background-color: rgba(255, 255, 255, 0.7);
     height: 100%;
     width: 100%;
     font-size: 3rem;
     text-align: center;
 }
 
-.trips-title img {
+.trips-title img, .home-title img {
     display: block;
     width: 100%;
-    height: 100%;
 }
 
 .trips-section {
@@ -344,4 +351,27 @@ tr td:first-child, thead tr th:first-child {
 
 tr th:first-child {
     background-color: var(--accent2-color);
+}
+
+/* HOME PAGE */
+
+.home-title h1 {
+    position: absolute;
+    border-radius: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.home-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.home-information {
+    display: grid;
 }
